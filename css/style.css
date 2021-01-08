@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    max-height: 100vh;
+    display: block;
+}
+
+.body {
+    background-color: #263845;
+    font-family: sans-serif;
+    height: 100%;    
+}
+
+.message {
+    /* border: 1px solid black; */
+    width: 400px;
+    height: 220px;
+    margin: 0 auto;
+    margin-top: calc(50vh - 110px); /*centrado vertical*/
+    text-align: center;        
+}
+
+.message__title {
+    margin-top: 30px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #A7B5C3;
+}
+
+.message__text {
+    margin-top: 10px;
+    font-size: 12px;
+    letter-spacing: 0.7px;
+    color: #3B7694; 
+    line-height: 16px;   
+}
